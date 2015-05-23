@@ -1,3 +1,12 @@
+body{
+	text-align: center;
+}
+
+#header{
+	text-align:right;
+	word-spacing: 15px;
+}
+
 #title {
 	display: block;
     height:100px; width: 260px;
@@ -24,4 +33,15 @@ input {
 	position:relative;
 	margin-top:-31px;
 	margin-right: 525px;
+}
+
+.Search {
+	width:105px;
+	display: inline-block;
+	font-size: 11px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode",sans-serif;
+	font-weight: Strong;
+	margin-right:10px;
+	border-color: #d4d4d4;
+	background-color: #ececec;
 }
