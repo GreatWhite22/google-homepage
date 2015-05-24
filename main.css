@@ -1,10 +1,13 @@
-body{
-	text-align: center;
+ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
 }
 
-#header{
-	text-align:right;
-	word-spacing: 15px;
+li {
+	display:block;
+	margin-right: 0px;
+	float: right;
 }
 
 #title {
@@ -13,6 +16,10 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
+}
+
+form{
+	text-align: center;
 }
 
 input {
