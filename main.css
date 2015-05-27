@@ -74,9 +74,12 @@ input {
 }
 
 #divFooter {
-	background-color: gray;
-	margin-top: 325px;
+	background-color: #e9e9e9;
+	margin-top: 354px;
 	overflow: auto;
+	/*position: fixed;
+	bottom: 0;*/
+	right:0%;
 }
 
 #footer {
@@ -90,7 +93,14 @@ input {
 
 .titleFooter {
 	float:right;
-	bottom:0%;
+	/*position: fixed;*/
+/*	bottom: 0;*/
 	padding-right: 10px;
+	padding-top: 15px; padding-bottom: 15px;
+}
+
+.titleFooter2 {
+	float:left;
+	padding-left: 10px;
 	padding-top: 15px; padding-bottom: 15px;
 }
